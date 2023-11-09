@@ -23,7 +23,7 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @Entity
-@Table(name = "CART_LINE")
+@Table(name = "cart_line")
 public class CartLine {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

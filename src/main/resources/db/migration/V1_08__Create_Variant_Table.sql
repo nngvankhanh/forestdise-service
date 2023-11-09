@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS VARIANT (
+CREATE TABLE IF NOT EXISTS variant (
                          ID INT PRIMARY KEY AUTO_INCREMENT,
                          NAME VARCHAR(255),
                          SKU_CODE VARCHAR(255),
@@ -9,5 +9,5 @@ CREATE TABLE IF NOT EXISTS VARIANT (
                          IMG VARCHAR(255),
                          IS_DELETED BOOLEAN DEFAULT 0,
                          PRODUCT_ID INT,
-                         FOREIGN KEY (PRODUCT_ID) REFERENCES PRODUCT (ID)
+                         FOREIGN KEY (PRODUCT_ID) REFERENCES product (ID)
 );

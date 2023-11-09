@@ -1,4 +1,4 @@
-INSERT IGNORE INTO COMMENT (CONTENT, REVIEW_ID,SELLER_ID) VALUES
+INSERT IGNORE INTO comment (CONTENT, REVIEW_ID,SELLER_ID) VALUES
     ('Wrong review!!! You are stupid!!!', 1,1),
      ('Wrong1 review!!! You are stupid!!!', 2,1),
      ('Wrong2 review!!! You are stupid!!!', 3,1),

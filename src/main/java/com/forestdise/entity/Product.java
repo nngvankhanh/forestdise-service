@@ -25,7 +25,7 @@ import java.util.List;
 @Getter
 @Setter
 @Builder
-@Table(name = "PRODUCT")
+@Table(name = "product")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -23,7 +23,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name ="SELLER")
+@Table(name ="seller")
 public class Seller {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

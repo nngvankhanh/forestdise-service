@@ -21,7 +21,7 @@ import javax.persistence.Table;
 @Builder
 @Getter
 @Setter
-@Table(name="COMMENT")
+@Table(name="comment")
 public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

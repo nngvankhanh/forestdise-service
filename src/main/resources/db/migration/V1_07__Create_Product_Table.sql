@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS PRODUCT (
+CREATE TABLE IF NOT EXISTS product (
                          ID INT AUTO_INCREMENT NOT NULL PRIMARY KEY ,
                          TITLE VARCHAR(255),
                          DESCRIPTION TEXT,
@@ -9,9 +9,9 @@ CREATE TABLE IF NOT EXISTS PRODUCT (
                          CATEGORY_ID INT,
                          STORE_CATEGORY_ID INT,
                          STORE_ID INT,
-                         FOREIGN KEY (CATEGORY_ID) REFERENCES CATEGORY (ID),
-                         FOREIGN KEY (STORE_CATEGORY_ID) REFERENCES STORE_CATEGORY (ID),
-                         FOREIGN KEY (STORE_ID) REFERENCES STORE (ID)
+                         FOREIGN KEY (CATEGORY_ID) REFERENCES category (ID),
+                         FOREIGN KEY (STORE_CATEGORY_ID) REFERENCES store_category (ID),
+                         FOREIGN KEY (STORE_ID) REFERENCES store (ID)
 
 
     );

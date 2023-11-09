@@ -18,7 +18,7 @@ import javax.persistence.Table;
 @Builder
 @Getter
 @Setter
-@Table(name="ORDER")
+@Table(name="order")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

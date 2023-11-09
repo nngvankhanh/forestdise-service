@@ -21,7 +21,7 @@ import javax.persistence.Table;
 @Builder
 @Getter
 @Setter
-@Table(name = "HASHTAG")
+@Table(name = "hashtag")
 
 public class HashTag {
     @Id

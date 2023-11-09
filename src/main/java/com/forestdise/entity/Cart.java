@@ -24,7 +24,7 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-@Table(name = "CART", uniqueConstraints = {@UniqueConstraint(name = "user_id_uk", columnNames = "user_id")})
+@Table(name = "cart", uniqueConstraints = {@UniqueConstraint(name = "user_id_uk", columnNames = "user_id")})
 public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

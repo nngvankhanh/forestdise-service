@@ -24,7 +24,7 @@ import java.util.List;
 @Getter
 @Setter
 @Builder
-@Table(name = "STORE_CATEGORY")
+@Table(name = "store_category")
 public class StoreCategory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

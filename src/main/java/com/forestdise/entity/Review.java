@@ -25,7 +25,7 @@ import java.util.List;
 @Builder
 @Getter
 @Setter
-@Table(name="REVIEW")
+@Table(name="review")
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

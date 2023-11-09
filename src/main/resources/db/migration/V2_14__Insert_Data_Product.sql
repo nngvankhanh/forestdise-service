@@ -1,4 +1,4 @@
-INSERT IGNORE INTO PRODUCT (title, description, main_picture, status, create_at, updated_at, category_id, store_category_id, store_id)
+INSERT IGNORE INTO product (title, description, main_picture, status, create_at, updated_at, category_id, store_category_id, store_id)
 VALUES
     ('SAMSUNG Galaxy Z Flip 5 Cell Phone', 'Factory Unlocked Android Smartphone, 256GB, Compact, Foldable Design, One-Hand Control, Best Selfies, Full Cover Screen, Hands-Free Use, US Version, 2023, Mint', 'https://m.media-amazon.com/images/I/61NKaFRAyRL._AC_SL1500_.jpg', 'Active', NOW(), NOW(), 1, 2, 1),
     ('SAMSUNG Galaxy S23+ Plus Cell Phone', 'Factory Unlocked Android Smartphone, 256GB, 50MP Camera, Night Mode, Long Battery Life, Adaptive Display, US Version, 2023, Phantom Black', 'https://m.media-amazon.com/images/I/71wmNVsS9TL._AC_SL1500_.jpg', 'Active', NOW(), NOW(), 1, 3, 1),

@@ -1,4 +1,4 @@
-INSERT IGNORE INTO PRODUCTATTRIBUTE (NAME, VALUE, PRODUCT_ID)
+INSERT IGNORE INTO productattribute (NAME, VALUE, PRODUCT_ID)
 VALUES
     ('Brand', 'Amazon', 1),
     ('Material', 'Saga', 1),

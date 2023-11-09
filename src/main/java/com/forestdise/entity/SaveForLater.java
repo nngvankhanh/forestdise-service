@@ -23,7 +23,7 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @Entity
-@Table(name = "SAVE_FOR_LATER")
+@Table(name = "save_for_later")
 public class SaveForLater {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
