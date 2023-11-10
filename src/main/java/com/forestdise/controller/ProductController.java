@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-//@CrossOrigin(origins = "https://forestdise.vercel.app")
-@RequestMapping("/api/products")
+@CrossOrigin(origins = "https://forestdise.vercel.app/")
+@RequestMapping("api/products")
 public class ProductController {
 
     private final ProductServiceImpl productServiceImpl;
