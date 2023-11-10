@@ -22,7 +22,7 @@ public class EmailServiceImpl implements EmailService {
         String subject = "Registration Confirmation";
         String message = "Thank you for registering to ForestDise." +
                 " Please click on this link to verify your account and start shopping:";
-        String verifyLink = "http://localhost:8080/api" + "/register/confirmation?token=" + token;
+        String verifyLink = "https://forestdise.vercel.app/api" + "/register/confirmation?token=" + token;
         String sentMessage = message + "\n" + verifyLink;
         email.setTo(recipientAddress);
         email.setSubject(subject);
