@@ -59,7 +59,7 @@ public class AuthController {
     public void verifyUser(@RequestParam(name = "token")String token, HttpServletResponse response) throws Exception{
             VerificationToken verificationToken = verificationTokenRepository.findByToken(token);
             userService.verifyToken(verificationToken, response);
-            response.sendRedirect("http://localhost:3000/confirm?status=success");
+            response.sendRedirect("https://forestdise.vercel.app/confirm?status=success");
     }
 
     @PostMapping("/login/seller")
